@@ -1,0 +1,129 @@
+main: com.ZeParadox.ZeParadox.Main
+name: ZeParadox
+version: 6.2
+description: ZeParadox.com
+authors: [YaItsZack, CatcraftN]
+website: http://ZeParadox.com/
+prefix: ZeParadox
+load: POSTWORLD
+api-version: 1.13
+commands:
+  guns:
+    description: You can look at all the wepons.
+    permission: ZeParadox.guns
+    permission-message: You do not have permission!
+    usage: /guns
+  back:
+    description: You can go back to your last spot.
+    permission: ZeParadox.back
+    permission-message: You do not have permission!
+    usage: /back
+  home:
+    description: Go to your home that you set.
+    permission: ZeParadox.home
+    permission-message: You do not have permission!
+    usage: /home
+  spawn:
+    description: Go to the spawn set by an admin.
+    permission: ZeParadox.spawn
+    permission-message: You do not have permission!
+    usage: /spawn
+  setSpawn:
+    description: Set the spawn!
+    permission: ZeParadox.setSpawn
+    permission-message: You do not have permission!
+    usage: /setSpawn
+  forceSpawn:
+    description: Force to spawn at spawn!
+    permission: ZeParadox.forceSpawn
+    permission-message: You do not have permission!
+    usage: /forceSpawn
+  showElevators:
+    description: Show all the elevator blocks.
+    permission: ZeParadox.showElevators
+    permission-message: You do not have permission!
+    usage: /showElevators
+  addElevator:
+    description: Make the block under you into a elevator.
+    permission: ZeParadox.addElevator
+    permission-message: You do not have permission!
+    usage: /addElevator
+  removeElevator:
+    description: Remove the elevator that you are standing on.
+    permission: ZeParadox.removeElevator
+    permission-message: You do not have permission!
+    usage: /removeElevator
+  car:
+    description: Spawn a car at your location.
+    permission: ZeParadox.car
+    permission-message: You do not have permission!
+    usage: /car
+  setHome:
+    description: Set a location to return back to that you call home.
+    permission: ZeParadox.setHome
+    permission-message: You do not have permission!
+    usage: /setHome
+  atm:
+    description: With this command you can make or remove atm signs.
+    permission: ZeParadox.atm
+    permission-message: You do not have permission!
+    usage: /atm
+  list:
+    description: Show whos online.
+    permission: ZeParadox.list
+    permission-message: You do not have permission!
+    usage: /list
+  powerTool:
+    description: Set a command to a item.
+    permission: ZeParadox.powerTool
+    permission-message: You do not have permission!
+    usage: /powerTool command
+    aliases:
+    - pt
+  CSSC:
+    description: Cross server staff chest.
+    permission: ZeParadox.CSSC
+    permission-message: You do not have permission!
+    usage: /CSSC
+  card:
+    description: card
+    permission: ZeParadox.card
+    permission-message: You do not have permission!
+    usage: /card
+  ZeParadox:
+    description: ZeParadox
+    permission: ZeParadox.ZeParadox
+    permission-message: You do not have permission!
+    usage: /ZeParadox
+  Invsee:
+    description: Invsee
+    permission: ZeParadox.Invsee
+    permission-message: You do not have permission!
+    usage: /Invsee player
+  Enderchest:
+    description: Enderchest
+    permission: ZeParadox.Enderchest
+    permission-message: You do not have permission!
+    usage: /Enderchest
+  name:
+    description: Add a new name to a item!
+    permission: ZeParadox.name
+    permission-message: You do not have permission!
+    usage: /name name
+  lore:
+    description: Add a line to the lore!
+    permission: ZeParadox.lore
+    permission-message: You do not have permission!
+    usage: /lore lore
+  fish:
+    description: Add a line to the lore!
+    permission: ZeParadox.fish
+    permission-message: You do not have permission!
+    usage: /fish
+  CommandSpy:
+    description: CommandSpy
+    permission: ZeParadox.CommandSpy
+    permission-message: You do not have permission!
+    usage: /CommandSpy
+    aliases:
+      - cs

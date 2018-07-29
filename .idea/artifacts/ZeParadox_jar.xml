@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ZeParadox:jar">
+    <output-path>$PROJECT_DIR$/../../Server/Testing/plugins</output-path>
+    <root id="archive" name="ZeParadox.jar">
+      <element id="module-output" name="ZeParadox" />
+    </root>
+  </artifact>
+</component>
